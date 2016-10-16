@@ -1,0 +1,765 @@
+[32m[2016-10-15 17:51:38.136] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "master-server-1"
+
+[32m[2016-10-15 17:51:38.394] [INFO] console - [39minfo: socket.io started
+
+[32m[2016-10-15 17:51:38.398] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/starter.js] [39mExecuting /usr/bin/nodejs /root/divaol-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=4050,clientPort=3010,frontend=true,serverType=connector locally
+
+[32m[2016-10-15 17:51:38.404] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/starter.js] [39mExecuting /usr/bin/nodejs /root/divaol-server/game-server/app.js,env=development,id=chat-server-1,host=127.0.0.1,port=6050,serverType=chat locally
+
+[32m[2016-10-15 17:51:38.408] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/starter.js] [39mExecuting /usr/bin/nodejs /root/divaol-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+
+[32m[2016-10-15 17:51:38.413] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/starter.js] [39mExecuting /usr/bin/nodejs /root/divaol-server/game-server/app.js,env=development,id=admin-server-1,host=127.0.0.1,clientPort=5050,frontend=true,serverType=admin locally
+
+[32m[2016-10-15 17:51:38.418] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/starter.js] [39mExecuting /usr/bin/nodejs /root/divaol-server/game-server/app.js,env=development,id=game-server-1,host=127.0.0.1,clientPort=3051,frontend=true,serverType=game locally
+
+[32m[2016-10-15 17:51:38.429] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/starter.js] [39mExecuting /usr/bin/nodejs /root/divaol-server/game-server/app.js,env=development,id=lobby-server-1,host=127.0.0.1,clientPort=7050,frontend=true,serverType=lobby locally
+
+[32m[2016-10-15 17:51:38.441] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/starter.js] [39mExecuting /usr/bin/nodejs /root/divaol-server/game-server/app.js,env=development,id=stage-server-1,host=127.0.0.1,clientPort=8050,frontend=true,serverType=stage locally
+
+[32m[2016-10-15 17:51:38.455] [INFO] pomelo-admin - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "master", "127.0.0.1", 3005
+
+[36m[2016-10-15 17:51:39.018] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"id":"master-server-1","host":"127.0.0.1","port":3005,"pid":4829}
+
+[32m[2016-10-15 17:51:39.057] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"master-server-1" enter after start...
+
+[32m[2016-10-15 17:51:39.067] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"master-server-1" finish start
+
+[32m[2016-10-15 17:51:39.067] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"master-server-1" startup in 925 ms
+
+[32m[2016-10-15 17:51:39.451] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+
+[32m[2016-10-15 17:51:39.489] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-1"
+
+[32m[2016-10-15 17:51:39.492] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "gate-server-1"
+
+[32m[2016-10-15 17:51:39.510] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "admin-server-1"
+
+[32m[2016-10-15 17:51:39.517] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "lobby-server-1"
+
+[32m[2016-10-15 17:51:39.529] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "game-server-1"
+
+[32m[2016-10-15 17:51:39.541] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "stage-server-1"
+
+[32m[2016-10-15 17:51:42.286] [INFO] console - [39minfo: socket.io started
+
+[32m[2016-10-15 17:51:42.363] [INFO] pomelo-admin - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+
+[32m[2016-10-15 17:51:42.606] [INFO] console - [39minfo: socket.io started
+
+[32m[2016-10-15 17:51:42.666] [INFO] pomelo-admin - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "lobby", "127.0.0.1", 3005
+
+[32m[2016-10-15 17:51:42.669] [INFO] pomelo-admin - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[32m[2016-10-15 17:51:42.717] [INFO] pomelo-admin - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "admin", "127.0.0.1", 3005
+
+[32m[2016-10-15 17:51:42.718] [INFO] pomelo-admin - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[32m[2016-10-15 17:51:42.733] [INFO] pomelo-admin - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[36m[2016-10-15 17:51:42.807] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"/root/divaol-server/game-server/app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":4836}
+
+[36m[2016-10-15 17:51:42.810] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":4836}}
+
+[32m[2016-10-15 17:51:42.842] [INFO] pomelo-admin - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "stage", "127.0.0.1", 3005
+
+[32m[2016-10-15 17:51:42.860] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-1" enter after start...
+
+[32m[2016-10-15 17:51:42.863] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-1" finish start
+
+[32m[2016-10-15 17:51:42.874] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-1" startup in 3353 ms
+
+[36m[2016-10-15 17:51:42.907] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"/root/divaol-server/game-server/app.js","env":"development","id":"game-server-1","host":"127.0.0.1","clientPort":3051,"frontend":"true","serverType":"game","pid":4840}
+
+[36m[2016-10-15 17:51:42.912] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"game-server-1","host":"127.0.0.1","clientPort":3051,"frontend":"true","serverType":"game","pid":4840}}
+
+[36m[2016-10-15 17:51:42.909] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"game-server-1","host":"127.0.0.1","clientPort":3051,"frontend":"true","serverType":"game","pid":4840}}
+
+[36m[2016-10-15 17:51:42.925] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"/root/divaol-server/game-server/app.js","env":"development","id":"lobby-server-1","host":"127.0.0.1","clientPort":7050,"frontend":"true","serverType":"lobby","pid":4842}
+
+[36m[2016-10-15 17:51:42.945] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"lobby-server-1","host":"127.0.0.1","clientPort":7050,"frontend":"true","serverType":"lobby","pid":4842}}
+
+[36m[2016-10-15 17:51:42.928] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"lobby-server-1","host":"127.0.0.1","clientPort":7050,"frontend":"true","serverType":"lobby","pid":4842}}
+
+[36m[2016-10-15 17:51:42.968] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"/root/divaol-server/game-server/app.js","env":"development","id":"admin-server-1","host":"127.0.0.1","clientPort":5050,"frontend":"true","serverType":"admin","pid":4838}
+
+[36m[2016-10-15 17:51:42.992] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"admin-server-1","host":"127.0.0.1","clientPort":5050,"frontend":"true","serverType":"admin","pid":4838}}
+
+[36m[2016-10-15 17:51:42.977] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"admin-server-1","host":"127.0.0.1","clientPort":5050,"frontend":"true","serverType":"admin","pid":4838}}
+
+[36m[2016-10-15 17:51:43.010] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"/root/divaol-server/game-server/app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":4837}
+
+[36m[2016-10-15 17:51:43.030] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":4837}}
+
+[36m[2016-10-15 17:51:43.014] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":4837}}
+
+[36m[2016-10-15 17:51:43.069] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"/root/divaol-server/game-server/app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3010,"frontend":"true","serverType":"connector","pid":4835}
+
+[32m[2016-10-15 17:51:42.986] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"lobby-server-1" enter after start...
+[32m[2016-10-15 17:51:43.009] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"lobby-server-1" finish start
+[32m[2016-10-15 17:51:43.012] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"lobby-server-1" startup in 3048 ms
+[36m[2016-10-15 17:51:43.019] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[lobby-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"admin-server-1","host":"127.0.0.1","clientPort":5050,"frontend":"true","serverType":"admin","pid":4838}}
+[36m[2016-10-15 17:51:43.032] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[lobby-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":4837}}
+[36m[2016-10-15 17:51:43.075] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[lobby-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3010,"frontend":"true","serverType":"connector","pid":4835}}
+
+[32m[2016-10-15 17:51:42.992] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"game-server-1" enter after start...
+[32m[2016-10-15 17:51:43.017] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"game-server-1" finish start
+[32m[2016-10-15 17:51:43.018] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"game-server-1" startup in 3038 ms
+[36m[2016-10-15 17:51:43.022] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[game-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"admin-server-1","host":"127.0.0.1","clientPort":5050,"frontend":"true","serverType":"admin","pid":4838}}
+[36m[2016-10-15 17:51:43.037] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[game-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":4837}}
+[36m[2016-10-15 17:51:43.079] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[game-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3010,"frontend":"true","serverType":"connector","pid":4835}}
+
+[36m[2016-10-15 17:51:43.086] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3010,"frontend":"true","serverType":"connector","pid":4835}}
+
+[36m[2016-10-15 17:51:43.071] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3010,"frontend":"true","serverType":"connector","pid":4835}}
+
+[32m[2016-10-15 17:51:43.030] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"admin-server-1" enter after start...
+[32m[2016-10-15 17:51:43.054] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"admin-server-1" finish start
+[32m[2016-10-15 17:51:43.055] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"admin-server-1" startup in 3101 ms
+[36m[2016-10-15 17:51:43.058] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[admin-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":4837}}
+[36m[2016-10-15 17:51:43.082] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[admin-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3010,"frontend":"true","serverType":"connector","pid":4835}}
+
+[32m[2016-10-15 17:51:43.102] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"gate-server-1" enter after start...
+
+[36m[2016-10-15 17:51:43.112] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"/root/divaol-server/game-server/app.js","env":"development","id":"stage-server-1","host":"127.0.0.1","clientPort":8050,"frontend":"true","serverType":"stage","pid":4843}
+
+[36m[2016-10-15 17:51:43.127] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"stage-server-1","host":"127.0.0.1","clientPort":8050,"frontend":"true","serverType":"stage","pid":4843}}
+
+[36m[2016-10-15 17:51:43.114] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"stage-server-1","host":"127.0.0.1","clientPort":8050,"frontend":"true","serverType":"stage","pid":4843}}
+
+[36m[2016-10-15 17:51:43.116] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[lobby-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"stage-server-1","host":"127.0.0.1","clientPort":8050,"frontend":"true","serverType":"stage","pid":4843}}
+
+[36m[2016-10-15 17:51:43.118] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[game-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"stage-server-1","host":"127.0.0.1","clientPort":8050,"frontend":"true","serverType":"stage","pid":4843}}
+
+[36m[2016-10-15 17:51:43.120] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[admin-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"stage-server-1","host":"127.0.0.1","clientPort":8050,"frontend":"true","serverType":"stage","pid":4843}}
+
+[32m[2016-10-15 17:51:43.137] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"gate-server-1" finish start
+[32m[2016-10-15 17:51:43.137] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"gate-server-1" startup in 3197 ms
+
+[32m[2016-10-15 17:51:43.142] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+
+[36m[2016-10-15 17:51:43.141] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3010,"frontend":"true","serverType":"connector","pid":4835}}
+
+[32m[2016-10-15 17:51:43.150] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+
+[36m[2016-10-15 17:51:43.151] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"stage-server-1","host":"127.0.0.1","clientPort":8050,"frontend":"true","serverType":"stage","pid":4843}}
+
+[32m[2016-10-15 17:51:43.154] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 3246 ms
+
+[36m[2016-10-15 17:51:43.159] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/root/divaol-server/game-server/app.js","env":"development","id":"stage-server-1","host":"127.0.0.1","clientPort":8050,"frontend":"true","serverType":"stage","pid":4843}}
+
+[32m[2016-10-15 17:51:43.167] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"stage-server-1" enter after start...
+
+[32m[2016-10-15 17:51:43.172] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"stage-server-1" finish start
+
+[32m[2016-10-15 17:51:43.173] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/application.js] [39m"stage-server-1" startup in 3130 ms
+
+[32m[2016-10-15 17:51:43.175] [INFO] pomelo - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/watchdog.js] [39mall servers startup in 5033 ms
+
+[36m[2016-10-15 17:51:44.569] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+
+[36m[2016-10-15 17:51:44.708] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":24383},"compressGzip":0}
+
+[36m[2016-10-15 17:51:44.712] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 17:51:44.753] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 1
+
+[36m[2016-10-15 17:51:44.829] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+
+[36m[2016-10-15 17:51:44.905] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_1"},"compressGzip":0}
+
+[36m[2016-10-15 17:51:44.909] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"1","sid":"connector-server-1","username":"TestAccount_1","nickname":"TestAccount_1","stat":0}}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 17:53:14.813] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 1
+
+[36m[2016-10-15 18:06:19.635] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 2
+
+[36m[2016-10-15 18:06:19.753] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":8799},"compressGzip":0}
+
+[36m[2016-10-15 18:06:19.755] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:06:19.808] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 2
+
+[36m[2016-10-15 18:06:19.883] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 2
+
+[36m[2016-10-15 18:06:19.958] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 2, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_1"},"compressGzip":0}
+
+[36m[2016-10-15 18:06:19.960] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"2","sid":"connector-server-1","username":"TestAccount_2","nickname":"TestAccount_2","stat":0}}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:06:38.481] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 2
+
+[36m[2016-10-15 18:07:13.330] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 3
+
+[36m[2016-10-15 18:07:13.450] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 3, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":19933},"compressGzip":0}
+
+[36m[2016-10-15 18:07:13.451] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [3], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:07:13.504] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 3
+
+[36m[2016-10-15 18:07:13.578] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 3
+
+[36m[2016-10-15 18:07:13.654] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 3, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_2"},"compressGzip":0}
+
+[36m[2016-10-15 18:07:13.656] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"3","sid":"connector-server-1","username":"TestAccount_3","nickname":"TestAccount_3","stat":0}}, receivers: [3], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:07:28.169] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 3
+
+[36m[2016-10-15 18:09:02.102] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 4
+
+[36m[2016-10-15 18:09:02.221] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 4, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":22292},"compressGzip":0}
+
+[36m[2016-10-15 18:09:02.222] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [4], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:09:02.259] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 4
+
+[36m[2016-10-15 18:09:02.332] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 4
+
+[36m[2016-10-15 18:09:02.409] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 4, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_3"},"compressGzip":0}
+
+[36m[2016-10-15 18:09:02.410] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"4","sid":"connector-server-1","username":"TestAccount_4","nickname":"TestAccount_4","stat":0}}, receivers: [4], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:10:33.085] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 5
+
+[36m[2016-10-15 18:10:33.204] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 5, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":24054},"compressGzip":0}
+
+[36m[2016-10-15 18:10:33.206] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [5], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:10:33.244] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 5
+
+[36m[2016-10-15 18:10:33.317] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 5
+
+[36m[2016-10-15 18:10:33.392] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 5, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_4"},"compressGzip":0}
+
+[36m[2016-10-15 18:10:33.393] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"5","sid":"connector-server-1","username":"TestAccount_5","nickname":"TestAccount_5","stat":0}}, receivers: [5], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:10:45.572] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 5, msg: {"id":3,"type":0,"compressRoute":0,"route":"lobby.chatHandler.send","body":{"scope":"global","content":"#W#[Global] TestAccount_5: testr"},"compressGzip":0}
+
+[31m[2016-10-15 18:10:45.578] [ERROR] pomelo - [39m[31m[/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js] [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:334:50)
+    at dispatch (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:103:7)
+    at next (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at pro.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:112:3)
+    at Component.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/components/server.js:74:14)
+    at handleMessage (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:295:15)
+    at null.<anonymous> (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:239:5)
+    at EventEmitter.emit (events.js:95:17)
+
+[36m[2016-10-15 18:10:45.579] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 3, route: lobby.chatHandler.send, msg: {"code":500}, receivers: [5], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 18:11:32.835] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 35786
+
+[36m[2016-10-15 18:11:32.837] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 4
+
+[33m[2016-10-15 18:12:53.545] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 35883
+[36m[2016-10-15 18:12:53.546] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 5
+
+[36m[2016-10-15 18:13:10.947] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 6
+
+[36m[2016-10-15 18:13:11.068] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 6, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":12921},"compressGzip":0}
+
+[36m[2016-10-15 18:13:11.070] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [6], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:13:11.112] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 6
+
+[36m[2016-10-15 18:13:11.186] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 6
+
+[36m[2016-10-15 18:13:11.262] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 6, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_5"},"compressGzip":0}
+
+[36m[2016-10-15 18:13:11.264] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"6","sid":"connector-server-1","username":"TestAccount_6","nickname":"TestAccount_6","stat":0}}, receivers: [6], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:13:16.129] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 6, msg: {"id":3,"type":0,"compressRoute":0,"route":"lobby.lobbyHandler.createStage","body":{},"compressGzip":0}
+
+[31m[2016-10-15 18:13:16.132] [ERROR] pomelo - [39m[31m[/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js] [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:334:50)
+    at dispatch (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:103:7)
+    at next (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at pro.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:112:3)
+    at Component.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/components/server.js:74:14)
+    at handleMessage (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:295:15)
+    at null.<anonymous> (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:239:5)
+    at EventEmitter.emit (events.js:95:17)
+
+[36m[2016-10-15 18:13:16.133] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 3, route: lobby.lobbyHandler.createStage, msg: {"code":500}, receivers: [6], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:15:31.898] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 6, msg: {"id":4,"type":0,"compressRoute":0,"route":"lobby.lobbyHandler.createStage","body":{},"compressGzip":0}
+[31m[2016-10-15 18:15:31.900] [ERROR] pomelo - [39m[31m[/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js] [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:334:50)
+    at dispatch (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:103:7)
+    at next (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at pro.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:112:3)
+    at Component.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/components/server.js:74:14)
+    at handleMessage (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:295:15)
+    at null.<anonymous> (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:239:5)
+    at EventEmitter.emit (events.js:95:17)
+[36m[2016-10-15 18:15:31.900] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 4, route: lobby.lobbyHandler.createStage, msg: {"code":500}, receivers: [6], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:15:33.695] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 6, msg: {"id":5,"type":0,"compressRoute":0,"route":"lobby.lobbyHandler.createStage","body":{},"compressGzip":0}
+
+[31m[2016-10-15 18:15:33.697] [ERROR] pomelo - [39m[31m[/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js] [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:334:50)
+    at dispatch (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:103:7)
+    at next (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at pro.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:112:3)
+    at Component.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/components/server.js:74:14)
+    at handleMessage (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:295:15)
+    at null.<anonymous> (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:239:5)
+    at EventEmitter.emit (events.js:95:17)
+
+[36m[2016-10-15 18:15:33.698] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 5, route: lobby.lobbyHandler.createStage, msg: {"code":500}, receivers: [6], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:17:24.716] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 7
+
+[36m[2016-10-15 18:17:24.833] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 7, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":7936},"compressGzip":0}
+
+[36m[2016-10-15 18:17:24.835] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [7], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:17:24.876] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 7
+
+[36m[2016-10-15 18:17:24.948] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 7
+
+[36m[2016-10-15 18:17:25.022] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 7, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_6"},"compressGzip":0}
+
+[36m[2016-10-15 18:17:25.024] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"7","sid":"connector-server-1","username":"TestAccount_7","nickname":"TestAccount_7","stat":0}}, receivers: [7], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 18:18:01.905] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 35987
+[36m[2016-10-15 18:18:01.906] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 6
+
+[36m[2016-10-15 18:18:09.974] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 7
+
+[36m[2016-10-15 18:19:22.868] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 8
+
+[36m[2016-10-15 18:19:22.985] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 8, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":8733},"compressGzip":0}
+
+[36m[2016-10-15 18:19:22.987] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [8], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:19:23.036] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 8
+
+[36m[2016-10-15 18:19:23.112] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 8
+
+[36m[2016-10-15 18:19:23.189] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 8, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_7"},"compressGzip":0}
+
+[36m[2016-10-15 18:19:23.191] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"8","sid":"connector-server-1","username":"TestAccount_8","nickname":"TestAccount_8","stat":0}}, receivers: [8], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:19:35.643] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 8
+
+[36m[2016-10-15 18:23:26.728] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 9
+
+[36m[2016-10-15 18:23:26.846] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 9, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":1622},"compressGzip":0}
+
+[36m[2016-10-15 18:23:26.847] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [9], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:23:26.896] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 9
+
+[36m[2016-10-15 18:23:26.973] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 9
+
+[36m[2016-10-15 18:23:27.050] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 9, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_8"},"compressGzip":0}
+
+[36m[2016-10-15 18:23:27.051] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"9","sid":"connector-server-1","username":"TestAccount_9","nickname":"TestAccount_9","stat":0}}, receivers: [9], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:23:32.861] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 9, msg: {"id":3,"type":0,"compressRoute":0,"route":"lobby.lobbyHandler.createStage","body":{},"compressGzip":0}
+
+[31m[2016-10-15 18:23:32.862] [ERROR] pomelo - [39m[31m[/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js] [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:334:50)
+    at dispatch (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:103:7)
+    at next (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at pro.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:112:3)
+    at Component.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/components/server.js:74:14)
+    at handleMessage (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:295:15)
+    at null.<anonymous> (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:239:5)
+    at EventEmitter.emit (events.js:95:17)
+
+[36m[2016-10-15 18:23:32.863] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 3, route: lobby.lobbyHandler.createStage, msg: {"code":500}, receivers: [9], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 18:28:27.890] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 36298
+
+[36m[2016-10-15 18:28:27.897] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 9
+
+[36m[2016-10-15 18:37:43.822] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 10
+
+[36m[2016-10-15 18:37:43.940] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 10, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":1356},"compressGzip":0}
+
+[36m[2016-10-15 18:37:43.941] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [10], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:37:43.981] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 10
+
+[36m[2016-10-15 18:37:44.053] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 10
+
+[36m[2016-10-15 18:37:44.129] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 10, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_9"},"compressGzip":0}
+
+[36m[2016-10-15 18:37:44.130] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"10","sid":"connector-server-1","username":"TestAccount_10","nickname":"TestAccount_10","stat":0}}, receivers: [10], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:38:50.591] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 10
+
+[36m[2016-10-15 18:39:27.209] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 11
+
+[36m[2016-10-15 18:39:27.328] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 11, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":30236},"compressGzip":0}
+
+[36m[2016-10-15 18:39:27.329] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [11], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:39:27.364] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 11
+
+[36m[2016-10-15 18:39:27.437] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 11
+
+[36m[2016-10-15 18:39:27.513] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 11, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_10"},"compressGzip":0}
+
+[36m[2016-10-15 18:39:27.514] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"11","sid":"connector-server-1","username":"TestAccount_11","nickname":"TestAccount_11","stat":0}}, receivers: [11], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:39:38.813] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 11
+
+[36m[2016-10-15 18:40:08.289] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 12
+
+[36m[2016-10-15 18:40:08.408] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 12, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":1853},"compressGzip":0}
+
+[36m[2016-10-15 18:40:08.409] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [12], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:40:08.449] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 12
+
+[36m[2016-10-15 18:40:08.521] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 12
+
+[36m[2016-10-15 18:40:08.597] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 12, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_11"},"compressGzip":0}
+
+[36m[2016-10-15 18:40:08.598] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"12","sid":"connector-server-1","username":"TestAccount_12","nickname":"TestAccount_12","stat":0}}, receivers: [12], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:40:42.768] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 13
+
+[36m[2016-10-15 18:40:42.887] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 13, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":19335},"compressGzip":0}
+
+[36m[2016-10-15 18:40:42.889] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [13], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:40:42.928] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 13
+
+[36m[2016-10-15 18:40:43.002] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 13
+
+[36m[2016-10-15 18:40:43.079] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 13, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_12"},"compressGzip":0}
+
+[36m[2016-10-15 18:40:43.081] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"13","sid":"connector-server-1","username":"TestAccount_13","nickname":"TestAccount_13","stat":0}}, receivers: [13], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 18:41:38.604] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 36810
+[36m[2016-10-15 18:41:38.605] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 12
+
+[36m[2016-10-15 18:42:02.529] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 14
+
+[36m[2016-10-15 18:42:02.644] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 14, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":16622},"compressGzip":0}
+
+[36m[2016-10-15 18:42:02.646] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [14], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:42:02.687] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 14
+
+[36m[2016-10-15 18:42:02.760] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 14
+
+[36m[2016-10-15 18:42:02.840] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 14, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_13"},"compressGzip":0}
+
+[36m[2016-10-15 18:42:02.844] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"14","sid":"connector-server-1","username":"TestAccount_14","nickname":"TestAccount_14","stat":0}}, receivers: [14], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 18:43:15.394] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 36834
+[36m[2016-10-15 18:43:15.395] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 13
+
+[33m[2016-10-15 18:43:32.847] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 36853
+[36m[2016-10-15 18:43:32.848] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 14
+
+[36m[2016-10-15 18:46:00.709] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 15
+
+[36m[2016-10-15 18:46:00.827] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 15, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":17995},"compressGzip":0}
+
+[36m[2016-10-15 18:46:00.829] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [15], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:46:00.863] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 15
+
+[36m[2016-10-15 18:46:00.938] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 15
+
+[36m[2016-10-15 18:46:01.013] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 15, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_14"},"compressGzip":0}
+
+[36m[2016-10-15 18:46:01.015] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"15","sid":"connector-server-1","username":"TestAccount_15","nickname":"TestAccount_15","stat":0}}, receivers: [15], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 18:49:21.371] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 36996
+
+[36m[2016-10-15 18:49:21.374] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 15
+
+[36m[2016-10-15 18:49:51.095] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 16
+
+[36m[2016-10-15 18:49:51.216] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 16, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":20831},"compressGzip":0}
+
+[36m[2016-10-15 18:49:51.217] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [16], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:49:51.267] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 16
+
+[36m[2016-10-15 18:49:51.339] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 16
+
+[36m[2016-10-15 18:49:51.414] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 16, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_15"},"compressGzip":0}
+
+[36m[2016-10-15 18:49:51.415] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"16","sid":"connector-server-1","username":"TestAccount_16","nickname":"TestAccount_16","stat":0}}, receivers: [16], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:50:37.909] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 17
+
+[36m[2016-10-15 18:50:38.026] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 17, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":12523},"compressGzip":0}
+[36m[2016-10-15 18:50:38.026] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [17], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:50:38.067] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 17
+
+[36m[2016-10-15 18:50:38.140] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 17
+
+[36m[2016-10-15 18:50:38.217] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 17, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_16"},"compressGzip":0}
+
+[36m[2016-10-15 18:50:38.218] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"17","sid":"connector-server-1","username":"TestAccount_17","nickname":"TestAccount_17","stat":0}}, receivers: [17], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 18:51:31.841] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 37146
+[36m[2016-10-15 18:51:31.842] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 16
+
+[33m[2016-10-15 18:52:08.222] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 37219
+[36m[2016-10-15 18:52:08.223] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 17
+
+[36m[2016-10-15 18:52:21.309] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 18
+
+[36m[2016-10-15 18:52:21.429] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 18, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":20798},"compressGzip":0}
+
+[36m[2016-10-15 18:52:21.430] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [18], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 18:52:21.479] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 18
+
+[36m[2016-10-15 18:52:21.552] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 18
+
+[36m[2016-10-15 18:52:21.626] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 18, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_17"},"compressGzip":0}
+
+[36m[2016-10-15 18:52:21.628] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"18","sid":"connector-server-1","username":"TestAccount_18","nickname":"TestAccount_18","stat":0}}, receivers: [18], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 18:53:51.632] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 37324
+[36m[2016-10-15 18:53:51.633] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 18
+
+[36m[2016-10-15 19:00:00.567] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 19
+
+[36m[2016-10-15 19:00:00.689] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 19, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":28475},"compressGzip":0}
+
+[36m[2016-10-15 19:00:00.690] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [19], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:00:00.737] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 19
+
+[36m[2016-10-15 19:00:00.812] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 19
+
+[36m[2016-10-15 19:00:00.887] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 19, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_18"},"compressGzip":0}
+
+[36m[2016-10-15 19:00:00.888] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"19","sid":"connector-server-1","username":"TestAccount_19","nickname":"TestAccount_19","stat":0}}, receivers: [19], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 19:01:30.896] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 37524
+[36m[2016-10-15 19:01:30.898] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 19
+
+[36m[2016-10-15 19:02:52.197] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 20
+
+[36m[2016-10-15 19:02:52.312] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 20, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":11859},"compressGzip":0}
+
+[36m[2016-10-15 19:02:52.313] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [20], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:02:52.351] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 20
+
+[36m[2016-10-15 19:02:52.425] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 20
+
+[36m[2016-10-15 19:02:52.500] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 20, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_19"},"compressGzip":0}
+
+[36m[2016-10-15 19:02:52.502] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"20","sid":"connector-server-1","username":"TestAccount_20","nickname":"TestAccount_20","stat":0}}, receivers: [20], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 19:04:22.511] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 37642
+[36m[2016-10-15 19:04:22.512] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 20
+
+[36m[2016-10-15 19:10:36.022] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 21
+
+[36m[2016-10-15 19:10:36.136] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 21, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":7106},"compressGzip":0}
+
+[36m[2016-10-15 19:10:36.137] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [21], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:10:36.173] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 21
+
+[36m[2016-10-15 19:10:36.248] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 21
+
+[36m[2016-10-15 19:10:36.325] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 21, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_20"},"compressGzip":0}
+
+[36m[2016-10-15 19:10:36.326] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"21","sid":"connector-server-1","username":"TestAccount_21","nickname":"TestAccount_21","stat":0}}, receivers: [21], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 19:12:06.329] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 37870
+[36m[2016-10-15 19:12:06.331] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 21
+
+[36m[2016-10-15 19:12:28.516] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 22
+
+[36m[2016-10-15 19:12:28.634] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 22, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":30237},"compressGzip":0}
+
+[36m[2016-10-15 19:12:28.636] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [22], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:12:28.679] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 22
+
+[36m[2016-10-15 19:12:28.753] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 22
+
+[36m[2016-10-15 19:12:28.830] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 22, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_21"},"compressGzip":0}
+
+[36m[2016-10-15 19:12:28.832] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"22","sid":"connector-server-1","username":"TestAccount_22","nickname":"TestAccount_22","stat":0}}, receivers: [22], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:13:28.291] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 23
+
+[36m[2016-10-15 19:13:28.404] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 23, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":6209},"compressGzip":0}
+[36m[2016-10-15 19:13:28.405] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [23], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:13:28.457] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 23
+
+[36m[2016-10-15 19:13:28.536] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 23
+
+[36m[2016-10-15 19:13:28.621] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 23, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_22"},"compressGzip":0}
+
+[36m[2016-10-15 19:13:28.622] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"23","sid":"connector-server-1","username":"TestAccount_23","nickname":"TestAccount_23","stat":0}}, receivers: [23], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 19:14:09.084] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 37981
+
+[36m[2016-10-15 19:14:09.087] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 22
+
+[36m[2016-10-15 19:16:29.835] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 23
+
+[36m[2016-10-15 19:17:06.433] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 24
+
+[36m[2016-10-15 19:17:06.567] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 24, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":2653},"compressGzip":0}
+
+[36m[2016-10-15 19:17:06.568] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [24], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:17:06.608] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 24
+
+[36m[2016-10-15 19:17:06.684] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 24
+
+[36m[2016-10-15 19:17:06.764] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 24, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_23"},"compressGzip":0}
+
+[36m[2016-10-15 19:17:06.767] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"24","sid":"connector-server-1","username":"TestAccount_24","nickname":"TestAccount_24","stat":0}}, receivers: [24], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 19:18:36.772] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 38105
+
+[36m[2016-10-15 19:18:36.775] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 24
+
+[36m[2016-10-15 19:20:29.477] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 25
+
+[36m[2016-10-15 19:20:29.596] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 25, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":6176},"compressGzip":0}
+
+[36m[2016-10-15 19:20:29.597] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [25], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:20:29.640] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 25
+
+[36m[2016-10-15 19:20:29.715] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 25
+
+[36m[2016-10-15 19:20:29.792] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 25, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_24"},"compressGzip":0}
+
+[36m[2016-10-15 19:20:29.793] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"25","sid":"connector-server-1","username":"TestAccount_25","nickname":"TestAccount_25","stat":0}}, receivers: [25], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:21:37.264] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 26
+
+[36m[2016-10-15 19:21:37.385] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 26, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":24488},"compressGzip":0}
+
+[36m[2016-10-15 19:21:37.386] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [26], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:21:37.438] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 26
+
+[36m[2016-10-15 19:21:37.509] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 26
+
+[36m[2016-10-15 19:21:37.584] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 26, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_25"},"compressGzip":0}
+
+[36m[2016-10-15 19:21:37.585] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"26","sid":"connector-server-1","username":"TestAccount_26","nickname":"TestAccount_26","stat":0}}, receivers: [26], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 19:21:59.799] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 38272
+
+[36m[2016-10-15 19:21:59.801] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 25
+
+[36m[2016-10-15 19:22:47.337] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 27
+
+[36m[2016-10-15 19:22:47.452] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 27, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":12059},"compressGzip":0}
+
+[36m[2016-10-15 19:22:47.455] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [27], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:22:47.494] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 27
+
+[36m[2016-10-15 19:22:47.568] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 27
+
+[36m[2016-10-15 19:22:47.642] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 27, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_26"},"compressGzip":0}
+
+[36m[2016-10-15 19:22:47.643] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"27","sid":"connector-server-1","username":"TestAccount_27","nickname":"TestAccount_27","stat":0}}, receivers: [27], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[33m[2016-10-15 19:23:07.588] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 38349
+
+[36m[2016-10-15 19:23:07.590] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 26
+
+[33m[2016-10-15 19:24:17.648] [WARN] pomelo - [39m[33m[/root/divaol-server/game-server/node_modules/pomelo/lib/connectors/hybrid/switcher.js] [39mconnection is timeout without communication, the remote ip is 2.120.255.110 && port is 38437
+[36m[2016-10-15 19:24:17.648] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 27
+
+[36m[2016-10-15 19:27:11.323] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 28
+
+[36m[2016-10-15 19:27:11.439] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 28, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":19503},"compressGzip":0}
+
+[36m[2016-10-15 19:27:11.448] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [28], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 19:27:11.492] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 28
+
+[36m[2016-10-15 19:27:11.564] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 28
+
+[36m[2016-10-15 19:27:11.642] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 28, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_27"},"compressGzip":0}
+
+[36m[2016-10-15 19:27:11.643] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"28","sid":"connector-server-1","username":"TestAccount_28","nickname":"TestAccount_28","stat":0}}, receivers: [28], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 20:11:39.542] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 28
+
+[36m[2016-10-15 20:26:24.271] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] getSession session is created with session id: 29
+
+[36m[2016-10-15 20:26:24.389] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] handleMessage session id: 29, msg: {"id":1,"type":0,"compressRoute":1,"route":"gate.gateHandler.queryEntry","body":{"uid":5145},"compressGzip":0}
+
+[36m[2016-10-15 20:26:24.390] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [29], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 20:26:24.441] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [gate-server-1] is closed with session id: 29
+
+[36m[2016-10-15 20:26:24.511] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 29
+
+[36m[2016-10-15 20:26:24.588] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 29, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.connectorHandler.login","body":{"password":"da39a3ee5e6b4b0d3255bfef95601890afd80709","username":"testaccount_28"},"compressGzip":0}
+
+[36m[2016-10-15 20:26:24.590] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.connectorHandler.login, msg: {"route":"onEnter","code":200,"msg":{"uid":"29","sid":"connector-server-1","username":"TestAccount_29","nickname":"TestAccount_29","stat":0}}, receivers: [29], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2016-10-15 20:26:35.739] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 29, msg: {"id":3,"type":0,"compressRoute":0,"route":"lobby.lobbyHandler.getStageList","body":{},"compressGzip":0}
+
+[31m[2016-10-15 20:26:35.741] [ERROR] pomelo - [39m[31m[/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js] [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:334:50)
+    at dispatch (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:103:7)
+    at next (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at pro.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/server/server.js:112:3)
+    at Component.globalHandle (/root/divaol-server/game-server/node_modules/pomelo/lib/components/server.js:74:14)
+    at handleMessage (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:295:15)
+    at null.<anonymous> (/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js:239:5)
+    at EventEmitter.emit (events.js:95:17)
+
+[36m[2016-10-15 20:26:35.743] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 3, route: lobby.lobbyHandler.getStageList, msg: {"code":500}, receivers: [29], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[32m[2016-10-15 20:27:29.795] [INFO] pomelo-admin - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/masterAgent.js] [39mclient user : admin login to master
+
+[32m[2016-10-15 20:27:29.799] [INFO] admin-log - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/master.js] [39m{"action":"execute","moduleId":"__console__","method":"clientHandler","msg":{"signal":"stop","ids":[],"clientId":"pomelo_terminal_1476577649724","username":"admin"}}
+
+[36m[2016-10-15 20:27:29.841] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive remove server event, with server: chat-server-1, type: chat
+
+[32m[2016-10-15 20:27:29.853] [INFO] crash-log - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/master.js] [39m[chat],[chat-server-1],[1476577649853],[disconnect]
+
+[36m[2016-10-15 20:27:29.881] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive remove server event, with server: gate-server-1, type: gate
+
+[32m[2016-10-15 20:27:29.883] [INFO] crash-log - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/master.js] [39m[gate],[gate-server-1],[1476577649883],[disconnect]
+
+[36m[2016-10-15 20:27:29.883] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive remove server event, with server: admin-server-1, type: admin
+
+[32m[2016-10-15 20:27:29.885] [INFO] crash-log - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/master.js] [39m[admin],[admin-server-1],[1476577649885],[disconnect]
+
+[36m[2016-10-15 20:27:29.886] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/masterwatcher.js] [39mmasterwatcher receive remove server event, with server: stage-server-1, type: stage
+
+[32m[2016-10-15 20:27:29.886] [INFO] crash-log - [39m[32m[/root/divaol-server/game-server/node_modules/pomelo/lib/master/master.js] [39m[stage],[stage-server-1],[1476577649886],[disconnect]
+
+[36m[2016-10-15 20:27:29.890] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"chat-server-1"}
+
+[36m[2016-10-15 20:27:29.892] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+
+[36m[2016-10-15 20:27:29.894] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"admin-server-1"}
+
+[36m[2016-10-15 20:27:29.895] [DEBUG] pomelo - [39m[36m[/root/divaol-server/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"stage-server-1"}
+
