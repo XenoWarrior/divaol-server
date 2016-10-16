@@ -8,18 +8,6 @@
         ],
         "gate":[
             {"id": "gate-server-1", "host": "127.0.0.1", "clientPort": 3014, "frontend": true}
-        ],
-        "admin":[
-            {"id": "admin-server-1", "host": "127.0.0.1", "clientPort": 5050, "frontend": true}
-        ],
-        "game":[
-            {"id": "game-server-1", "host": "127.0.0.1", "clientPort": 3051, "frontend": true}
-        ],
-        "lobby":[
-            {"id": "lobby-server-1", "host": "127.0.0.1", "clientPort": 7050, "frontend": true}
-        ],
-        "stage":[
-            {"id": "stage-server-1", "host": "127.0.0.1", "clientPort": 8050, "frontend": true}
         ]
     },
     "production":
@@ -32,18 +20,6 @@
         ],
         "gate":[
             {"id": "gate-server-1", "host": "127.0.0.1", "clientPort": 3014, "frontend": true}
-        ],
-        "admin":[
-            {"id": "admin-server-1", "host": "127.0.0.1", "clientPort": 5050, "frontend": true}
-        ],
-        "game":[
-            {"id": "game-server-1", "host": "127.0.0.1", "clientPort": 3051, "frontend": true}
-        ],
-        "lobby":[
-            {"id": "lobby-server-1", "host": "127.0.0.1", "clientPort": 7050, "frontend": true}
-        ],
-        "stage":[
-            {"id": "stage-server-1", "host": "127.0.0.1", "clientPort": 8050, "frontend": true}
         ]
     }
 }

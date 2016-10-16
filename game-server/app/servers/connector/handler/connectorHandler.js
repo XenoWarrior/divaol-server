@@ -7,24 +7,35 @@ var Handler = function(app) {
 };
 
 var handler = Handler.prototype;
-var tempID = 1;
+var tempID = 0;
+
+var userAccounts = {};
 
 handler.admin = function(msg, session, next) {
 	next(200, {code: 200});
 };
 
 handler.login = function(msg, session, next) {
+	var newAccount = {
+		ses: session,
+		uid: tempID+1,
+		name: msg["username"]
+	};
+
 	next(200, {
 		route: 'onEnter', 
-		code:200, 
+		code: 200, 
 		msg:{
-			uid: tempID.toString(), 
+			uid: newAccount["uid"].toString(), 
 			sid: "connector-server-1", 
-			username: "TestAccount_"+tempID.toString(), 
-			nickname: "TestAccount_"+tempID.toString(), stat:0
+			username: newAccount["name"],
+			nickname: newAccount["name"],
+			stat: 0
 		}
 	});
-	tempID++;
+
+	userAccounts[session] = newAccount;
+	tempID = userAccounts.length;
 };
 
 handler.logout = function(msg, session, next) {
@@ -36,9 +47,10 @@ handler.send = function(msg, session, next){
 		route: 'onChat', 
 		code: 200, 
 		msg:{
-			"content":msg["content"]
+			"scope": msg["scope"],
+			"content": msg["content"]
 		}, 
-		stat:0
+		stat: 0
 	});
 };
 
@@ -76,7 +88,7 @@ handler.onAllInfo = function(msg, session, next){
 	next(200, {code: 200, msg: "ok"});
 };
 handler.onStart = function(msg, session, next){
-	next(200, {code: 200, msg: "ok"});
+	next(200, {code: 200, flag: true});
 };
 handler.onReturn = function(msg, session, next){
 	next(200, {code: 200, msg: "ok"});
@@ -112,42 +124,175 @@ handler.getStageList = function(msg, session, next){
 		id: "1",
 		owner: {
 			uid: "1",
-			nickname: "TEST HOST",
+			nickname: "SystemBot",
 		},
 		capacity: 8,
 		createTime: 1476628986976,
 		stat: 0,
 		data: {
 			song: [
-				{ id: 1, level: 2, mode: 1 },
-				{ id: 1, level: 2, mode: 1 }
+				{ id: 1, level: 2, mode: 0 }
 			]
 		},
 		count: 1
 	};
 
-	// Just send some test hosts
-	tempHost["id"] = "1";
-	hostList.push(tempHost);
-	tempHost["id"] = "2";
-	tempHost["capacity"] = 6;
 	hostList.push(tempHost);
 
-	next(null, {code: 200, msg: hostList});
+	next(200, {code: 200, msg: hostList});
 };
 
 handler.createStage = function(msg, session, next){
-	next(200, {code: 200, msg: "ok"});
-};
-handler.joinStage = function(msg, session, next){
+	var userAccount = userAccounts[session];
+
 	var stage = {
 		id: "stage_1",
 		name: "stage_1",
 		owner:{
-			uid: "1529",
+			uid: userAccount["uid"].toString(),
 			sid: "connector-server-1",
-			username: "TestAccount_00",
-			nickname: "TestAccount_00",
+			username: userAccount["name"].toString(),
+			nickname: userAccount["name"].toString(),
+			stat: 0,
+			stageId: "stage_1"
+		},
+		capability: 8,
+		stat: 0,
+		createTime: 1476628986976,
+		slots: [ 
+			{
+				uid: "1",
+				player: {
+					uid: userAccount["uid"].toString(),
+					sid: "connector-server-1",
+					username: userAccount["name"].toString(),
+					nickname: userAccount["name"].toString(),
+					stat: 0,
+					stageId: "stage_1"
+				},
+				color: 0,
+				slot: 0,
+				stat: 1
+			},
+			{
+				uid: "0",
+				player: {
+					uid: "0",
+					sid: "",
+					username: "",
+					nickname: "",
+					stat: -1,
+					stageId: ""
+				},
+				color: -1,
+				slot: -1,
+				stat: -1
+			},
+			{
+				uid: "0",
+				player: {
+					uid: "0",
+					sid: "",
+					username: "",
+					nickname: "",
+					stat: -1,
+					stageId: ""
+				},
+				color: -1,
+				slot: -1,
+				stat: -1
+			},
+			{
+				uid: "0",
+				player: {
+					uid: "0",
+					sid: "",
+					username: "",
+					nickname: "",
+					stat: -1,
+					stageId: ""
+				},
+				color: -1,
+				slot: -1,
+				stat: -1
+			},
+			{
+				uid: "0",
+				player: {
+					uid: "0",
+					sid: "",
+					username: "",
+					nickname: "",
+					stat: -1,
+					stageId: ""
+				},
+				color: -1,
+				slot: -1,
+				stat: -1
+			},
+			{
+				uid: "0",
+				player: {
+					uid: "0",
+					sid: "",
+					username: "",
+					nickname: "",
+					stat: -1,
+					stageId: ""
+				},
+				color: -1,
+				slot: -1,
+				stat: -1
+			},
+			{
+				uid: "0",
+				player: {
+					uid: "0",
+					sid: "",
+					username: "",
+					nickname: "",
+					stat: -1,
+					stageId: ""
+				},
+				color: -1,
+				slot: -1,
+				stat: -1
+			},
+			{
+				uid: "0",
+				player: {
+					uid: "0",
+					sid: "",
+					username: "",
+					nickname: "",
+					stat: -1,
+					stageId: ""
+				},
+				color: -1,
+				slot: -1,
+				stat: -1
+			}
+		],
+		data:{
+			mode:"normal",
+			song:[],
+			hook:"0"
+		},
+		count:1
+	}
+
+	next(200, {code: 200, msg: stage});
+};
+handler.joinStage = function(msg, session, next){
+	var userAccount = userAccounts[session];
+	var stage = {
+		id: "stage_1",
+		name: "stage_1",
+		owner:{
+			uid: "0",
+			sid: "connector-server-1",
+			username: "SystemBot",
+			nickname: "SystemBot",
 			stat: 0,
 			stageId: "stage_1"
 		},
@@ -160,8 +305,8 @@ handler.joinStage = function(msg, session, next){
 				player: {
 					uid: "1",
 					sid: "connector-server-1",
-					username: "TestAccount_00",
-					nickname: "TestAccount_00",
+					username: "SystemBot",
+					nickname: "SystemBot",
 					stat: 0,
 					stageId: "stage_1"
 				},
@@ -174,8 +319,8 @@ handler.joinStage = function(msg, session, next){
 				player: {
 					uid: "1",
 					sid: "connector-server-1",
-					username: "TestAccount_00",
-					nickname: "TestAccount_00",
+					username: "SystemBot",
+					nickname: "SystemBot",
 					stat: 0,
 					stageId: "stage_1"
 				},
@@ -188,8 +333,8 @@ handler.joinStage = function(msg, session, next){
 				player: {
 					uid: "1",
 					sid: "connector-server-1",
-					username: "TestAccount_00",
-					nickname: "TestAccount_00",
+					username: "SystemBot",
+					nickname: "SystemBot",
 					stat: 0,
 					stageId: "stage_1"
 				},
@@ -202,8 +347,8 @@ handler.joinStage = function(msg, session, next){
 				player: {
 					uid: "1",
 					sid: "connector-server-1",
-					username: "TestAccount_00",
-					nickname: "TestAccount_00",
+					username: "SystemBot",
+					nickname: "SystemBot",
 					stat: 0,
 					stageId: "stage_1"
 				},
@@ -216,8 +361,8 @@ handler.joinStage = function(msg, session, next){
 				player: {
 					uid: "1",
 					sid: "connector-server-1",
-					username: "TestAccount_00",
-					nickname: "TestAccount_00",
+					username: "SystemBot",
+					nickname: "SystemBot",
 					stat: 0,
 					stageId: "stage_1"
 				},
@@ -230,8 +375,8 @@ handler.joinStage = function(msg, session, next){
 				player: {
 					uid: "1",
 					sid: "connector-server-1",
-					username: "TestAccount_00",
-					nickname: "TestAccount_00",
+					username: "SystemBot",
+					nickname: "SystemBot",
 					stat: 0,
 					stageId: "stage_1"
 				},
@@ -244,8 +389,8 @@ handler.joinStage = function(msg, session, next){
 				player: {
 					uid: "1",
 					sid: "connector-server-1",
-					username: "TestAccount_00",
-					nickname: "TestAccount_00",
+					username: "SystemBot",
+					nickname: "SystemBot",
 					stat: 0,
 					stageId: "stage_1"
 				},
@@ -256,10 +401,10 @@ handler.joinStage = function(msg, session, next){
 			{
 				uid: "1",
 				player: {
-					uid: "1",
+					uid: userAccount["uid"].toString(),
 					sid: "connector-server-1",
-					username: "TestAccount_00",
-					nickname: "TestAccount_00",
+					username: userAccount["name"].toString(),
+					nickname: userAccount["name"].toString(),
 					stat: 0,
 					stageId: "stage_1"
 				},
@@ -270,7 +415,9 @@ handler.joinStage = function(msg, session, next){
 		],
 		data:{
 			mode:"normal",
-			song:[],
+			song:[
+				{ id: 1, level: 2, mode: 0 }
+			],
 			hook:"0"
 		},
 		count:1
@@ -297,7 +444,51 @@ handler.ready = function(msg, session, next){
 	next(200, {code: 200, msg: "ok"});
 };
 handler.start = function(msg, session, next){
-	next(200, {code: 200, msg: "ok"});
+	var userAccount = userAccounts[session];
+	var startPacket = {
+		id:"game_1",
+		name:"stage_1",
+		host:{
+			uid: userAccount["uid"].toString(),
+			sid: "connector-server-1",
+			username: userAccount["name"].toString(),
+			nickname: userAccount["name"].toString(),
+			stat: 0,
+			stageId: "stage_1"
+		},
+		song:{
+			id: 49,
+			level: 0,
+			mode: 0
+		},
+		mode: 0,
+		hook: "0",
+		players:[{
+			info:{
+				uid: userAccount["uid"].toString(),
+				sid: "connector-server-1",
+				username: userAccount["name"].toString(),
+				nickname: userAccount["name"].toString(),
+				stat: 0,
+				stageId: "stage_1"
+			},
+			color:0,
+			index:0,
+			teamId:0,
+			stat:2,
+			score:0,
+			combo:0,
+			hp:0.5,
+			idInTeam:0,
+			position:0,
+			complete:false,
+			eval:[0,0,0,0,0],
+			extra:{}
+		}],
+		teamCnt:1
+	};
+
+	push(200, {code:200, flag: true, msg: startPacket});
 };
 handler.kick = function(msg, session, next){
 	next(200, {code: 200, msg: "ok"});
