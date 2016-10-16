@@ -115,7 +115,7 @@ handler.getStageList = function(msg, session, next){
 			nickname: "TEST HOST",
 		},
 		capacity: 8,
-		createTime: 1476626696,
+		createTime: 1476628986976,
 		stat: 0,
 		data: {
 			song: [
@@ -140,7 +140,143 @@ handler.createStage = function(msg, session, next){
 	next(200, {code: 200, msg: "ok"});
 };
 handler.joinStage = function(msg, session, next){
-	next(200, {code: 200, msg: "ok"});
+	var stage = {
+		id: "stage_1",
+		name: "stage_1",
+		owner:{
+			uid: "1529",
+			sid: "connector-server-1",
+			username: "TestAccount_00",
+			nickname: "TestAccount_00",
+			stat: 0,
+			stageId: "stage_1"
+		},
+		capability: 8,
+		stat: 0,
+		createTime: 1476628986976,
+		slots: [ 
+			{
+				uid: "1",
+				player: {
+					uid: "1",
+					sid: "connector-server-1",
+					username: "TestAccount_00",
+					nickname: "TestAccount_00",
+					stat: 0,
+					stageId: "stage_1"
+				},
+				color: 0,
+				slot: 0,
+				stat: 1
+			},
+			{
+				uid: "1",
+				player: {
+					uid: "1",
+					sid: "connector-server-1",
+					username: "TestAccount_00",
+					nickname: "TestAccount_00",
+					stat: 0,
+					stageId: "stage_1"
+				},
+				color: 0,
+				slot: 0,
+				stat: 1
+			},
+			{
+				uid: "1",
+				player: {
+					uid: "1",
+					sid: "connector-server-1",
+					username: "TestAccount_00",
+					nickname: "TestAccount_00",
+					stat: 0,
+					stageId: "stage_1"
+				},
+				color: 0,
+				slot: 0,
+				stat: 1
+			},
+			{
+				uid: "1",
+				player: {
+					uid: "1",
+					sid: "connector-server-1",
+					username: "TestAccount_00",
+					nickname: "TestAccount_00",
+					stat: 0,
+					stageId: "stage_1"
+				},
+				color: 0,
+				slot: 0,
+				stat: 1
+			},
+			{
+				uid: "1",
+				player: {
+					uid: "1",
+					sid: "connector-server-1",
+					username: "TestAccount_00",
+					nickname: "TestAccount_00",
+					stat: 0,
+					stageId: "stage_1"
+				},
+				color: 0,
+				slot: 0,
+				stat: 1
+			},
+			{
+				uid: "1",
+				player: {
+					uid: "1",
+					sid: "connector-server-1",
+					username: "TestAccount_00",
+					nickname: "TestAccount_00",
+					stat: 0,
+					stageId: "stage_1"
+				},
+				color: 0,
+				slot: 0,
+				stat: 1
+			},
+			{
+				uid: "1",
+				player: {
+					uid: "1",
+					sid: "connector-server-1",
+					username: "TestAccount_00",
+					nickname: "TestAccount_00",
+					stat: 0,
+					stageId: "stage_1"
+				},
+				color: 0,
+				slot: 0,
+				stat: 1
+			},
+			{
+				uid: "1",
+				player: {
+					uid: "1",
+					sid: "connector-server-1",
+					username: "TestAccount_00",
+					nickname: "TestAccount_00",
+					stat: 0,
+					stageId: "stage_1"
+				},
+				color: 0,
+				slot: 0,
+				stat: 1
+			}
+		],
+		data:{
+			mode:"normal",
+			song:[],
+			hook:"0"
+		},
+		count:1
+	}
+
+	next(200, {code: 200, msg: stage});
 };
 handler.leaveStage = function(msg, session, next){
 	next(200, {code: 200, msg: "ok"});
